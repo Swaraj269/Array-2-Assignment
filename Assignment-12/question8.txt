@@ -1,0 +1,12 @@
+8.Find the error.
+    double getAverage(int arr[], int size);
+    int main () {
+        int balance[5] = {1000, 2, 3, 17, 50};
+        double avg;
+        avg = getAverage( balance[0], 5 ) ;
+        cout << "Average value is: " << avg << endl;
+        return 0;
+    }
+
+Answer: In getAverage function you want a array and integer but when you
+        are calling the function you are sending integer instead of array.
